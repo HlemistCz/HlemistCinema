@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hlemistcinema" name="Hlemist Cinema" version="0.1.0" provider-name="HlemistCz">
+  <requires><import addon="xbmc.python" version="3.0.0"/></requires>
+  <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Multimediální vyhledávání pro Kodi</summary>
+    <description lang="cs_CZ">Nezávislý doplněk Hlemist Cinema. Integrace zdrojů se připravují.</description>
+    <platform>all</platform>
+    <license>License not yet selected</license>
+    <website>https://github.com/HlemistCz/HlemistCinema</website>
+    <source>https://github.com/HlemistCz/HlemistCinema</source>
+  </extension>
+</addon>
