@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.hlemistcinema"
+       name="Hlemist Cinema Repository"
+       version="0.1.0"
+       provider-name="HlemistCz">
+  <extension point="xbmc.addon.repository" name="Hlemist Cinema Repository">
+    <dir>
+      <info compressed="false">https://hlemistcz.github.io/HlemistCinema/addons.xml</info>
+      <checksum>https://hlemistcz.github.io/HlemistCinema/addons.xml.md5</checksum>
+      <datadir zip="true">https://hlemistcz.github.io/HlemistCinema/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Oficiální repozitář Hlemist Cinema</summary>
+    <description lang="cs_CZ">Instalace a aktualizace doplňku Hlemist Cinema.</description>
+    <platform>all</platform>
+    <license>License not yet selected</license>
+    <website>https://github.com/HlemistCz/HlemistCinema</website>
+    <source>https://github.com/HlemistCz/HlemistCinema</source>
+  </extension>
+</addon>
