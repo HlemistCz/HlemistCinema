@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+  <section id="plugin.video.hlemistcinema">
+    <category id="sources" label="Zdroje">
+      <setting id="source_fastshare" type="boolean" label="FastShare" default="false"/>
+      <setting id="source_webshare" type="boolean" label="WebShare" default="false"/>
+      <setting id="source_kra" type="boolean" label="Kra.sk" default="false"/>
+      <setting id="source_cztor" type="boolean" label="CZtor" default="false"/>
+      <setting id="source_prehrajto" type="boolean" label="Přehraj.to" default="false"/>
+      <setting id="source_sosac" type="boolean" label="Sosáč" default="false"/>
+      <setting id="source_hellspy" type="boolean" label="HellSpy" default="false"/>
+      <setting id="source_sledujto" type="boolean" label="Sleduj.to" default="false"/>
+      <setting id="source_luna" type="boolean" label="Luna" default="false"/>
+    </category>
+    <category id="general" label="Obecné">
+      <setting id="result_limit" type="integer" label="Maximální počet výsledků" default="50" min="10" max="200" step="10"/>
+    </category>
+  </section>
+</settings>
